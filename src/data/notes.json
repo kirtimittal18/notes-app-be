@@ -1,0 +1,82 @@
+[
+  {
+    "id": "95cf8712-0c96-4e81-a457-8480c346fdd1",
+    "folderId": "529758da-2f78-4976-9bf0-f15821be9a0b",
+    "userId": 1,
+    "content": "This note has been deleted already.",
+    "createdAt": "2024-10-14T17:49:19.526Z",
+    "updatedAt": "2024-10-14T17:49:55.775Z",
+    "size": 18,
+    "isDeleted": true
+  },
+  {
+    "id": "40a97e15-e901-409c-9179-e68d19858eb1",
+    "folderId": "66141078-fe73-4d5d-af3e-07dba128668b",
+    "userId": 1,
+    "content": "2nd note",
+    "createdAt": "2024-10-14T17:49:31.730Z",
+    "updatedAt": "2024-11-19T09:38:25.201Z",
+    "size": 8,
+    "isDeleted": true
+  },
+  {
+    "id": "1f9022ac-a4ae-49f6-82e8-b4179f959abf",
+    "folderId": "f595a161-0379-4870-a3ca-5fdf03c19c33",
+    "userId": 1,
+    "content": "First Inventory nOTE",
+    "createdAt": "2024-10-14T17:49:51.741Z",
+    "updatedAt": "2024-10-14T17:49:51.741Z",
+    "size": 20,
+    "isDeleted": false
+  },
+  {
+    "id": "4d0b8e8b-59e6-4628-9c7f-a52dadc936fb",
+    "folderId": "036c63b5-4111-4fe7-920d-349e01222f4c",
+    "userId": 1,
+    "content": "this is my second note",
+    "createdAt": "2024-11-19T06:54:21.649Z",
+    "updatedAt": "2024-11-19T06:54:30.428Z",
+    "size": 22,
+    "isDeleted": false
+  },
+  {
+    "id": "91a69143-24c9-4cc6-a3ed-3a404c3f7fff",
+    "folderId": "529758da-2f78-4976-9bf0-f15821be9a0b",
+    "userId": 1,
+    "content": "this is a new note GUGJ",
+    "createdAt": "2024-11-19T06:58:08.544Z",
+    "updatedAt": "2024-11-19T10:48:55.624Z",
+    "size": 18,
+    "isDeleted": true
+  },
+  {
+    "id": "21d8b543-84d7-44f4-81f5-218089d43b27",
+    "folderId": "a4f0c023-abd5-4f26-975f-682ba3555078",
+    "userId": 1,
+    "content": "this is a new note",
+    "createdAt": "2024-11-19T09:30:21.737Z",
+    "updatedAt": "2024-11-19T09:30:25.855Z",
+    "size": 18,
+    "isDeleted": true
+  },
+  {
+    "id": "f5a56ced-e74f-469d-8b8e-3564baa1360d",
+    "folderId": "dc98d865-c564-4db9-b779-a6e3fa5be143",
+    "userId": 1,
+    "content": "this ia new note in test rtgvre",
+    "createdAt": "2024-11-19T10:48:48.874Z",
+    "updatedAt": "2024-11-19T12:10:38.067Z",
+    "size": 24,
+    "isDeleted": false
+  },
+  {
+    "id": "f52b2187-1f87-4c4f-ba42-1a86882705fb",
+    "folderId": "dc98d865-c564-4db9-b779-a6e3fa5be143",
+    "userId": 1,
+    "content": "this is a new notes in this folder",
+    "createdAt": "2024-11-19T12:11:18.063Z",
+    "updatedAt": "2024-11-19T12:11:18.063Z",
+    "size": 34,
+    "isDeleted": false
+  }
+]
