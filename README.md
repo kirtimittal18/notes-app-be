@@ -21,8 +21,7 @@ npm or yarn for package management
 
 # Project Structure
 notes-app/
-│
-├── src/
+src/
 │   ├── controllers/          
 │   ├── services/            
 │   ├── models/              
@@ -30,7 +29,6 @@ notes-app/
 │   ├── middleware/           
 │   ├── data.json           
 │   ├── server.ts           
-│
 ├── .env                     
 ├── package.json              
 ├── tsconfig.json             
