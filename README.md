@@ -20,20 +20,23 @@ npm or yarn for package management
 
 
 # Project Structure
+```
 notes-app/
-src/
-│   ├── controllers/          
-│   ├── services/            
-│   ├── models/              
-│   ├── routes/              
-│   ├── middleware/           
-│   ├── data.json           
-│   ├── server.ts           
-├── .env                     
-├── package.json              
-├── tsconfig.json             
-└── README.md               
-
+│
+├── src/
+│   ├── controllers/          # Controllers to handle HTTP requests for notes and folders
+│   ├── services/             # Business logic for handling notes and folders
+│   ├── models/               # Data models for Notes, Folders
+│   ├── routes/               # API route definitions
+│   ├── middleware/           # error handling middleware
+│   ├── data.json             # JSON file to store data for notes, folders
+│   ├── server.ts             # Main entry point to start the Express server
+│
+├── .env                      # Environment variables (JWT secret, port number)
+├── package.json              # Project dependencies and scripts
+├── tsconfig.json             # TypeScript configuration
+└── README.md                 # Project documentation            
+```
 -----------------------------------------------
 
 # Tech Stack
