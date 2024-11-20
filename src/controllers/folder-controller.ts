@@ -11,10 +11,10 @@ export const getFolderStructure = async (req: Request, res: Response, next: Next
     const folderTree = await folderService.getFolderStructure();
 
     if (!folderTree || !folderTree.length) {
-      res.status(200).json([]);
+       return [];
     }
 
-    res.status(200).json(folderTree);
+    return folderTree;
   } catch (error) {
     next(error);
   }
