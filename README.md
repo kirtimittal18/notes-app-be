@@ -47,15 +47,15 @@ notes-app/
 -----------------------------------------------
 # 🚀 Installation and Setup
 ### Step 1: Clone the repository
-git clone https://github.com/yourusername/notes-app-backend.git
+```git clone https://github.com/yourusername/notes-app-backend.git```
 ### Step 2: Navigate to the project directory
-cd notes-app-backend
+```cd notes-app-backend```
 ### Step 3: Install dependencies
-npm install
+```npm install```
 ### Set up environment variables
-PORT=5000
+```PORT=5000```
 ### Step 5: Run the application in development mode
-npm run dev
+```npm run dev```
 
 
 This will start the backend at http://localhost:5000.
