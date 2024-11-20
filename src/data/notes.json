@@ -61,11 +61,11 @@
   },
   {
     "id": "f5a56ced-e74f-469d-8b8e-3564baa1360d",
-    "folderId": "09048645-fa67-48c7-85a0-7141b8c2002b",
+    "folderId": "529758da-2f78-4976-9bf0-f15821be9a0b",
     "userId": 1,
     "content": "this ia new note in test rtgvre ewdjek",
     "createdAt": "2024-11-19T10:48:48.874Z",
-    "updatedAt": "2024-11-20T04:20:34.868Z",
+    "updatedAt": "2024-11-20T04:57:36.092Z",
     "size": 24,
     "isDeleted": false
   },
@@ -78,5 +78,25 @@
     "updatedAt": "2024-11-19T12:11:18.063Z",
     "size": 34,
     "isDeleted": false
+  },
+  {
+    "id": "cca1dbdf-9baa-4654-81e1-2c630435f894",
+    "folderId": "dc98d865-c564-4db9-b779-a6e3fa5be143",
+    "userId": 1,
+    "content": "A new inventory note has been editedkjefhleahgkvhjlsdjfvljsldkfjhcjkahsjkcfgjkashgckfjhaklsjclaskghckjsgcjhbgkshCKhkJSHCjksjGChjsgzkjchgkshackhaskjhcjkhsjahcjksahcjkghsjkcjghscjkgasjkchjashcjhasjcdjkscbjkasdbcjbasjhcbhjasbcjbsajhcbsac",
+    "createdAt": "2024-11-20T04:58:33.010Z",
+    "updatedAt": "2024-11-20T05:02:16.686Z",
+    "size": 20,
+    "isDeleted": false
+  },
+  {
+    "id": "b15778db-cbae-4e9d-b9e1-1d2dcf23741a",
+    "folderId": "dc98d865-c564-4db9-b779-a6e3fa5be143",
+    "userId": 1,
+    "content": "I dont want to keep this note",
+    "createdAt": "2024-11-20T04:58:57.488Z",
+    "updatedAt": "2024-11-20T04:59:00.780Z",
+    "size": 29,
+    "isDeleted": true
   }
 ]

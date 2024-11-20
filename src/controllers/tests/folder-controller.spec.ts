@@ -42,27 +42,27 @@ describe("Folders Controller", () => {
       .spyOn(folderService, "getFolderStructure")
       .mockResolvedValue(mockFolderTree);
 
-    await getFolderStructure(
+    const result = await getFolderStructure(
       mockRequest as Request,
       mockResponse as Response,
       mockNext
     );
 
     expect(folderService.getFolderStructure).toHaveBeenCalled();
-    expect(mockResponse.json).toHaveBeenCalledWith(mockFolderTree);
+    expect(result).toEqual(mockFolderTree);
   });
 
   it("should return 404 if no folder tree is found", async () => {
     jest.spyOn(folderService, "getFolderStructure").mockResolvedValue([]);
 
-    await getFolderStructure(
+    const result = await getFolderStructure(
       mockRequest as Request,
       mockResponse as Response,
       mockNext
     );
 
     expect(folderService.getFolderStructure).toHaveBeenCalled();
-    expect(mockResponse.json).toHaveBeenCalledWith([]);
+    expect(result).toEqual([]);
   });
 
   it("should call next with error if service throws", async () => {

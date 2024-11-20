@@ -125,15 +125,14 @@ describe("Notes Controller", () => {
       mockRequest.params = { noteId: "1" };
       mockRequest.body = { content: "Updated Content" };
 
-      await updateNote(
+      const result = await updateNote(
         mockRequest as Request,
         mockResponse as Response,
         mockNext
       );
 
       expect(noteService.updateNote).toHaveBeenCalledWith("1", "Updated Content");
-      expect(mockResponse.status).toHaveBeenCalledWith(200);
-      expect(mockResponse.json).toHaveBeenCalledWith(mockUpdatedNote);
+      expect(result).toEqual(mockUpdatedNote);
     });
 
     it("should delete a note and return success", async () => {

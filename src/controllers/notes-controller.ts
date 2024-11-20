@@ -89,8 +89,6 @@ export const updateNote = async (
       res.status(404).json({ message: "Note not found" });
       return null;
     }
-
-    res.status(200).json(updatedNote);
     return updatedNote;
   } catch (error) {
     next(error);

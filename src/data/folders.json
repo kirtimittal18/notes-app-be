@@ -2,33 +2,17 @@
   {
     "id": "529758da-2f78-4976-9bf0-f15821be9a0b",
     "parentFolderId": null,
-    "name": "test",
+    "name": "Finance",
     "userId": 1,
     "createdAt": "2024-10-14T17:49:05.507Z",
-    "updatedAt": "2024-11-19T10:35:06.961Z"
+    "updatedAt": "2024-11-20T04:58:18.838Z"
   },
   {
     "id": "dc98d865-c564-4db9-b779-a6e3fa5be143",
     "parentFolderId": null,
-    "name": "New Folder abc",
-    "userId": 1,
-    "createdAt": "2024-11-19T10:30:31.865Z",
-    "updatedAt": "2024-11-19T12:10:48.547Z"
-  },
-  {
-    "id": "09048645-fa67-48c7-85a0-7141b8c2002b",
-    "parentFolderId": null,
-    "name": "New Folder. ",
-    "userId": 1,
-    "createdAt": "2024-11-19T10:48:26.573Z",
-    "updatedAt": "2024-11-19T10:48:28.389Z"
-  },
-  {
-    "id": "c9d7ea93-175b-4843-a16c-4e93400e4789",
-    "parentFolderId": null,
     "name": "Inventory",
     "userId": 1,
-    "createdAt": "2024-11-20T04:20:42.321Z",
-    "updatedAt": "2024-11-20T04:20:47.806Z"
+    "createdAt": "2024-11-19T10:30:31.865Z",
+    "updatedAt": "2024-11-20T04:58:06.711Z"
   }
 ]
