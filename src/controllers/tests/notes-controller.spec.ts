@@ -220,15 +220,14 @@ describe("Notes Controller", () => {
         .spyOn(noteService, "getDeletedNotes")
         .mockResolvedValue(mockDeletedNotes);
 
-      await getDeletedNotes(
+      const result = await getDeletedNotes(
         mockRequest as Request,
         mockResponse as Response,
         mockNext
       );
 
       expect(noteService.getDeletedNotes).toHaveBeenCalled();
-      expect(mockResponse.status).toHaveBeenCalledWith(200);
-      expect(mockResponse.json).toHaveBeenCalledWith(mockDeletedNotes);
+      expect(result).toEqual(mockDeletedNotes);
     });
 
     it("should restore a note from the recycle bin", async () => {

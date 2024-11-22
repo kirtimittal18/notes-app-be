@@ -162,7 +162,7 @@ export const getDeletedNotes = async (
       return [];
     }
 
-    res.status(200).json(deletedNotes);
+    return deletedNotes;
   } catch (error) {
     next(error);
   }
